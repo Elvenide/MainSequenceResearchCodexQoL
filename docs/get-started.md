@@ -43,15 +43,15 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
      ```
 2. **Install Elvenide's Research & Codex QoL**:
    - Download **$(System.Collections.Hashtable.ZipBase)-v<version>.zip** from [github.com/Elvenide/MainSequenceResearchCodexQoL/releases](https://github.com/Elvenide/MainSequenceResearchCodexQoL/releases).
-   - Open the zip, navigate into its `Mods\` folder, and copy the `MainSequenceResearchCodexQoL` folder into:
+   - Open the zip, navigate into its `Mods\` folder, and copy the `ElvenidesResearchCodexQoL` folder into:
      ```
-     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\MainSequenceResearchCodexQoL\
+     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\ElvenidesResearchCodexQoL\
      ```
-     *(You can safely leave `mscore.mod` inside `MainSequenceResearchCodexQoL\`—UE4SS ignores it.)*
-   - Ensure `MainSequenceResearchCodexQoL\enabled.txt` exists (an empty file is fine).
-   - Open `ue4ss\Mods\mods.txt` and add `MainSequenceResearchCodexQoL : 1` **above** `Keybinds : 1`:
+     *(You can safely leave `mscore.mod` inside `ElvenidesResearchCodexQoL\`—UE4SS ignores it.)*
+   - Ensure `ElvenidesResearchCodexQoL\enabled.txt` exists (an empty file is fine).
+   - Open `ue4ss\Mods\mods.txt` and add `ElvenidesResearchCodexQoL : 1` **above** `Keybinds : 1`:
      ```ini
-     MainSequenceResearchCodexQoL : 1
+     ElvenidesResearchCodexQoL : 1
 
      ; Built-in keybinds, do not move up!
      Keybinds : 1
@@ -61,5 +61,5 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
 
 ## Uninstalling
 
-- Remove or rename `MainSequenceResearchCodexQoL\enabled.txt` (or delete the `MainSequenceResearchCodexQoL` folder and remove `MainSequenceResearchCodexQoL : 1` from `mods.txt`).
+- Remove or rename `ElvenidesResearchCodexQoL\enabled.txt` (or delete the `ElvenidesResearchCodexQoL` folder and remove `ElvenidesResearchCodexQoL : 1` from `mods.txt`).
 - Your saves remain completely intact with no missing-mod dependencies.
